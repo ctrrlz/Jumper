@@ -8,7 +8,7 @@ private:
 	sf::Sprite sprite;
 	sf::Vector2f acc= sf::Vector2f(0.f, 0.f);
 	sf::Vector2f speed = sf::Vector2f(0.f, 0.f);
-	sf::Vector2f pos = sf::Vector2f(WINDOW_WIDTH / 2.f, WINDOW_HEIGHT - 150.f);
+	sf::Vector2f pos = sf::Vector2f(WINDOW_WIDTH / 2.f, WINDOW_HEIGHT - 250.f);
 public:
 	Player() {
 		texture.loadFromFile(

@@ -1,7 +1,8 @@
 #include "game.h"
 
 Game::Game() :
-	window(sf::VideoMode(800, 600), "Test")
+	window(sf::VideoMode(800, 600), "Test"),
+	p1(0,WINDOW_HEIGHT - 50.f, WINDOW_WIDTH, 50.f)
 {
 	window.setVerticalSyncEnabled(true);
 }
@@ -26,6 +27,7 @@ void Game::update() {
 void Game::draw() {
 	window.clear();
 	player.draw(window);
+	p1.draw(window);
 	window.display();
 }
 void Game::check_collisions() {}
