@@ -9,4 +9,5 @@ const std::string PLAYER_IMAGES_FOLDER = "Players/";
 const std::string PLAYER_IMAGE_FILENAME = "bunny1_ready.png"; 
 const std::string PLATFORM_IMAGES_FOLDER = "Environment/";
 const std::string PLATFORM_IMAGE_FILENAME = "ground_sand.png";
-const float JUMP_SPEED = -10.f;
+const float JUMP_SPEED = -20.f;
+const float GRAVITY = 0.6f;
